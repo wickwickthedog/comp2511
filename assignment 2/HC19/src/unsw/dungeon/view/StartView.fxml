@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="play" layoutX="178.0" layoutY="187.0" mnemonicParsing="false" onAction="#handlePlay" text="Play" textAlignment="CENTER" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Apple Braille" size="13.0" />
+         </font>
+      </Button>
+      <Label layoutX="117.0" layoutY="154.0" text="*Click Play to choose Level" textFill="#e10e0e" />
+      <ImageView fitHeight="27.0" fitWidth="29.0" layoutX="151.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../images/gnome.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

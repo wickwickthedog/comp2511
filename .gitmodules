@@ -1,0 +1,3 @@
+[submodule "FoodOrderingSystem"]
+	path = FoodOrderingSystem
+	url = https://github.com/wickwickthedog/FoodOrderingSystem.git

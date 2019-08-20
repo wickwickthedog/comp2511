@@ -1,0 +1,8 @@
+{"status":"rejected"}
+{"venue":"Zoo","rooms":["Hippo"],"status":"success"}
+{"venue":"Zoo","rooms":["Elephant"],"status":"success"}
+{"venue":"Zoo","rooms":["Penguin"],"status":"success"}
+{"status":"rejected"}
+{"status":"rejected"}
+{"venue":"Zoo","rooms":["Elephant"],"status":"success"}
+[{"reservations":[{"start":"2019-03-26","end":"2019-03-29","id":"Dance Party"}],"room":"Penguin"},{"reservations":[{"start":"2019-03-24","end":"2019-03-27","id":"Mattress Convention"}],"room":"Hippo"},{"reservations":[{"start":"2019-03-26","end":"2019-03-26","id":"Vivid"}],"room":"Elephant"}]

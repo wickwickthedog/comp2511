@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane fx:id="sPane" dividerPositions="0.7" onKeyPressed="#handleKeyPress" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <items>
+      <Pane onKeyPressed="#handleKeyPress">
+         <children>
+            <GridPane fx:id="squares" onKeyPressed="#handleKeyPress">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints vgrow="SOMETIMES" />
+              </rowConstraints>
+            </GridPane>
+         </children>
+      </Pane>
+      <Pane opacity="0.9" style="-fx-background-color: black;">
+         <children>
+            <Button fx:id="reset" layoutX="34.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleReset" text="Reset" />
+            <Button fx:id="back" layoutX="97.0" layoutY="209.0" mnemonicParsing="false" onAction="#handleBack" text="Back" />
+            <Label layoutY="256.0" text="&lt;&lt; DRAG &gt;&gt;" textFill="#fcfcfc" />
+            <Label layoutX="34.0" layoutY="148.0" style="-fx-background-color: orange;" text="Currently equiped with:" />
+            <Label fx:id="equiped" layoutX="34.0" layoutY="165.0" textFill="#f8f5f5">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" text="Instructions" textAlignment="CENTER" textFill="#f50000">
+               <font>
+                  <Font name="System Bold Italic" size="17.0" />
+               </font>
+            </Label>
+            <Label layoutX="33.0" layoutY="19.0" text="UP key - player moves up" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="36.0" text="DOWN key - player moves down" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="53.0" text="LEFT key - player moves left" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="70.0" text="RIGHT key - player moves right" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="87.0" text="SPACEBAR - use currently equiped item" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="104.0" text="C key - swap currently equiped item" textFill="#f50000" />
+            <Label layoutX="33.0" layoutY="121.0" text="X key - drop currently equiped item" textFill="#f50000" />
+         </children>
+      </Pane>
+   </items>
+</SplitPane>
