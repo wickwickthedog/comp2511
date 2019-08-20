@@ -33,6 +33,7 @@ Issues with ass2:-
 
 ## labs
 *Labs are my solution so it may or may not be perfect but for labs that i didn't got full marks i fixed it (may not be perfect)*
+You might have issues after importing Lab02 and Lab09, import the cs2511 in the lab0x folder and it should work fine
 ```
 1. Lab01 (1/1)- Basics
 2. Lab02 (1/1)- OO principles abstraction, encapsulation and inheritance
